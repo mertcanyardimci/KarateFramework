@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>Karate-Framework-Example</artifactId>
+  <artifactId>Karate-Framework</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>KarateFrameworkExample</name>
+  <name>KarateFramework</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,11 +22,7 @@
       <version>1.1.0</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.scala-lang</groupId>
-      <artifactId>scala-library</artifactId>
-      <version>2.13.12</version>
-    </dependency>
+
 
   </dependencies>
   <build>
@@ -49,6 +45,11 @@
           <target>8</target>
           <compilerArgument>-Werror</compilerArgument>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
       </plugin>
     </plugins>
   </build>
