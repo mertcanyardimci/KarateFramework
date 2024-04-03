@@ -7,4 +7,4 @@ function fn() {
   return config;
 }
 
-//Run Command:mvn test -Dtest=ProteinOceanTestRunner
+//Run Command:mvn test -Dtest=TestRunner
