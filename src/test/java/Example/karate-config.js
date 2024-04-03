@@ -1,7 +1,7 @@
 function fn() {
   var config = {
     karate: {
-      feature: 'classpath:java/ProteinOcean/ProteinOcean.feature'
+      feature: 'classpath:java/Example/ProteinOcean.feature'
     }
   };
   return config;
